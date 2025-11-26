@@ -1,8 +1,9 @@
 using Azure;
 using Azure.Data.Tables;
 using CentralMemoryMcp.Functions.Models;
+using CentralMemoryMcp.Functions.Storage;
 
-namespace CentralMemoryMcp.Functions;
+namespace CentralMemoryMcp.Functions.Services;
 
 public interface IKnowledgeGraphService
 {
